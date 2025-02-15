@@ -1,0 +1,21 @@
+# Use as a whitelist
+*
+!*/
+!**/.gitignore
+!**/.gitattributes
+!**/README.md
+!**/LICENSE
+
+# include a file in a subfolder
+!**/html/**/*.html
+
+# include javascript
+!**/*.js
+
+# Include .py, .ipynb, .pdf, and .md files in any subdirectory.
+!**/*.py
+!**/*.md
+!**/setup.nu
+
+# Include configuration file examples
+!**/*.toml.example
